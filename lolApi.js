@@ -11,8 +11,8 @@
 //}
 
 
-const urlChampData="http://ddragon.leagueoflegends.com/cdn/13.12.1/data/pt_BR/champion/"
-const urlChampSkin="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/"
+const urlChampData="https://ddragon.leagueoflegends.com/cdn/13.12.1/data/pt_BR/champion/"
+const urlChampSkin="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/"
 const champTitle = document.querySelector("#champName")
 const caixaImg=document.querySelector("#caixa")
 const caixaImg2=document.querySelector("#caixa2")
