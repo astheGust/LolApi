@@ -43,11 +43,11 @@ async function dices(){
 async function preencherDados(){
     let valor = valorSearch()    
     const dadoJson = await dices()
-    console.log(dadoJson)
 
-    historia.innerText = dadoJson.data[valor].lore;
     preencherSkins();
     preencherNome();
+    historia.innerText = dadoJson.data[valor].lore;
+
 }
 
 async function preencherNome(){
@@ -59,7 +59,7 @@ let title = await dados.data[valor].title
 champTitle.innerHTML=`${name}, ${title}`
 }
 async function preencherSkins(){
-    clear();
+    clearData();
     
     let x = await dices()
     let valor = valorSearch()    
@@ -111,7 +111,8 @@ async function preencherSkins(){
     
 }
 
-function clear(){
+function clearData(){
+    historia.innerHTML= ""
     champTitle.innerHTML = ""
     caixaImg.innerHTML = ""
     caixaImg2.innerHTML = ""

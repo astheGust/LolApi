@@ -15,6 +15,8 @@
 #infoIcon i{color:yellow;cursor: pointer;}
 
 #searchId{width:180px;height:20px;margin:20px 0;}
+#iconReset{cursor:pointer;margin:0 10px;color:yellow;font-size:20px}
+
 #champName{color:white;font-size:25px;margin:5px 0;}
 #champs{background-image:url("https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc28d43095579c8b5/5d87c24e8d8a3163705e3070/summonersrift.jpg");
 display: flex;flex-direction:column;text-align: center;
