@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="lolApi.css">
+        <script src="https://kit.fontawesome.com/75dd7735cf.js" crossorigin="anonymous"></script>
+        <script src="lolApi.js" defer></script>
+
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP4iLzFPNZ5-H9T15GUMbwFz9YXNigmq4oww&usqp=CAU">
+
+        <title>LolAPI</title>
+    </head>
+   <body>
+        <article id="champs">
+        <div id="divInfo">
+            <p id="infoIcon" onclick="janelaInfo()"><i class="fa-sharp fa-regular fa-circle-question"></i></p>
+            <ul id="info">
+                <li>Pesquise um campeão para ver suas skins</li>
+                <li>Clique na imagem para abrir em outra guia</li>
+            </ul>
+        </div>
+
+        <form onsubmit="event.preventDefault()">
+            <label>
+                <input value="Lux" id="searchId" type="search">
+                <input onclick="preencherDados()" type="button" value="Pesquisar">
+            </label>
+        </form>
+        <h1 id="champName"></h1>
+        <section id="caixa"></section>
+        <section id="caixa2"></section>
+        <section id="caixa3"></section>
+        <section id="caixa4"></section>
+        <section>
+            <p id="historia"></p>
+        </section>
+    </article>
+    </body>
+</html>

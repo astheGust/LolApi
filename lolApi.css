@@ -1,0 +1,26 @@
+*{margin:0;padding:0;}
+
+#divInfo{position: absolute;top:15px;border-radius:50%;
+    left:20px;color:white;
+    display: flex;justify-content: space-between;}
+    body div ul{list-style:none;}
+    body div ul li{
+        border-top:2px solid white;
+    border-bottom:2px solid white;
+    background-color:transparent;
+    margin:15px 6px;
+    width:100px;
+}
+#info{filter:opacity(0);transition:opacity 1s ease-in-out;}
+#infoIcon i{color:yellow;cursor: pointer;}
+
+#searchId{width:180px;height:20px;margin:20px 0;}
+#champName{color:white;font-size:25px;margin:5px 0;}
+#champs{background-image:url("https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc28d43095579c8b5/5d87c24e8d8a3163705e3070/summonersrift.jpg");
+display: flex;flex-direction:column;text-align: center;
+width:100vw;height:100vh}
+
+section .img{width:280px;height:160px;margin:2px 2.5px;}
+
+section{height:auto;display:flex;justify-content:center;}
+section p#historia{width:60%;height:auto;margin-top:10px;background-color:#121;color:white}
